@@ -1,0 +1,131 @@
+/* src/styles/HomePage.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.home-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+.home-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.explore-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #ff6600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.explore-button:hover {
+  background-color: #cc5200;
+}
+
+.home-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.features, .testimonials {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.features h2, .testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.feature-list, .testimonial-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature, .testimonial {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.feature p, .testimonial p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.social-media {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.social-media h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  font-size: 2rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff6600;
+}

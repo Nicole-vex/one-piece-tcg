@@ -1,0 +1,85 @@
+/* src/styles/Register.css */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://www.tiendalacomarca.cl/cdn/shop/files/BANERS_2_2048x.png?v=1706801061');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
+  .register-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .register-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-group.terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-group.terms label {
+    margin-left: 10px;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .form-group.terms a {
+    color: #ff6600;
+    text-decoration: none;
+  }
+  
+  .form-group.terms a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #cc5200;
+  }
+  

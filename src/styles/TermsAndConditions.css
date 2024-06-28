@@ -1,0 +1,23 @@
+/* src/styles/TermsAndConditions.css */
+.terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .terms-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .terms-container p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
